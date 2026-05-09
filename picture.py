@@ -7,7 +7,7 @@ def draw_picture(width, height):
     sg.fill_background("white")
     
     # make some variables available
-    colors = ["red", "green", "blue", "cyan", "magenta", "yellow"]
+    colors = ["red", "#00ff00", "blue", "cyan", "magenta", "yellow"]
 
     # sizes of triangles are based on canvas size
     # we want to fit in 3 horizontally and 5 vertically.
